@@ -18,6 +18,8 @@ Replace -h3eH4ubuno in the this .md by your YT video
 
 An in-depth paragraph about your project and overview of use.
 
+The TicTacToe grid is displayed on the console after every turn. The '-' on the grid marks an emty square. The 'X' and the 'O' marks a square thats occupied by Player X or Player O.
+The game follows the regular rules of TicTacToe. That means that the Players place their symbol in a free square on the 3x3 grid. To win the game the Player needs three squares in a row, column or diagonal line. If no Player wins before all nine squares are occupied the game ends with a draw.
 
 
 ### How to run
