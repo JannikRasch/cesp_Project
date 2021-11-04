@@ -32,11 +32,11 @@ To play the game you have to run the tictactoeV4.asm in RARS. If you run the pro
 
 The numbers 1 to 9 are related to the squares after the following sheme:
 
-1 | 2 | 3
+1  |  2  |  3
 
-4 | 5 | 6
+4  |  5  |  6
 
-7 | 8 | 9
+7  |  8  |  9
 
 There are a few rules when choosing the square. The square thats choosed can't be occupied by a Player and the entered number has to be in the range of 1 to 9.
 
