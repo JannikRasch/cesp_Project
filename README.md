@@ -33,7 +33,7 @@ To play the game you have to run the tictactoeV4.asm in RARS. If you run the pro
 The numbers 1 to 9 are related to the squares counting up from 1 to 9 from the top left square to the bottom right square.
 ![tictactoeGrid](https://user-images.githubusercontent.com/93741318/140430392-9c6df51a-99e3-4a3d-a374-9ac531c05379.png)
 
-There are a few rules when choosing the square. The square thats choosed can't be occupied by a Player and the entered number has to be in the range of 1 to 9.
+There are a few rules when choosing the square. The square thats choosed can't be occupied by a Player and the entered number has to be in the range of 1 to 9. If one of the rules gets violated the player has to enter a new number in the console.
 
 ## Files
 Describe the content of each file of your application: e.g.
