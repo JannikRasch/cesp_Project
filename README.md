@@ -2,10 +2,11 @@
 
 Simple overview of use/purpose.
 
+The Project is a game of TicTacToe which can be played by two players. The game runs on the consol, or morse specific on the Run I/O in RARS.
 
 ## Authors
 
-Contributors names and contact info
+Jannik Rasch
 
 ## Demo Video
 
@@ -28,13 +29,9 @@ run my_cool_program.asm in RARS
 ## Files
 Describe the content of each file of your application: e.g.
 
-src/main.c   # Main file of program
+src/tictactoeV4.asm
 
-src/main.asm # compiled version of main.c for RV32IM
-
-src/featureA.asm # A specific feature called in main
-
-test/test1.asm - test9.asm # 9 unit tests for featureA
+test/unittest_tictactoe_X /..._O / ..._D # 9 unit tests for the three possible outcomes of a game
 
 
 ## Test
