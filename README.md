@@ -1,4 +1,4 @@
-# CESP Programming Project Title
+# CESP Programming Project TicTacToe
 
 Simple overview of use/purpose.
 
