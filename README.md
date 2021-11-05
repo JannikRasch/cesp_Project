@@ -51,7 +51,7 @@ Entering a 1 restarts the game. That means that the grid gets reset to '-' in al
 
 ### Program
 
-The values in the grid are stored in a array. The value 1 represents the X and the value 2 represents the 2.
+The values in the grid are stored in a array. The value 1 represents the X and the value 2 represents the O.
 
 The grid gets build out of seperated parts. Such parts are the horizontal lines ' | ' or the vertical lines '---'. The values stored in the array are printed in between the lines as X or O. The stored values are accesed by loading the word at the corresponding part of the array (in steps by 4).
 The image shows the function that prints the grid on the console.
@@ -59,14 +59,14 @@ The image shows the function that prints the grid on the console.
   <img src="images/Screenshot_13.png">
 </p>
 
-There are three very similar functions that print the grid when X wins, O wins or they draw. They also print the fitting winning message and let the program jump to the part where the players are asked whether they want to restart or end the game.
+There are three more very similar functions that print the grid when X wins, O wins or they draw. They also print the fitting winning message and let the program jump to the part where the players are asked whether they want to restart or end the game.
 
-In the program are two mains. One for Player X and one for Player O. Those ask the Player to input a number of a square and store a 1 or 2 (X or O) in the corresponding part of the array. If a number out of range from 1 to 9 is entered in the console or if theres allready a 1 or 2 (X or O) in the selected square (part of the array) the program jumps to another part of the main ehich is irectly above it. The player is asked to input a new valid number.
+In the program are two mains. One for Player X and one for Player O. Those ask the Player to input the number of a square and store a 1 or 2 (X or O) in the corresponding part of the array. If a number out of range from 1 to 9 is entered in the console or if theres allready a 1 or 2 (X or O) in the selected square (part of the array) the program jumps to another part of the main which is directly above it. The player is asked to input a new valid number.
 <p align="center">
   <img src="images/Screenshot_10.png">
 </p>
 
-At the end of each main after a player selected a square an his symbol is stored in the array the program jumps to the end functions. These two function determine if one of the players wins. Both of them work identical. Each square of each row, column and diagonal are compared. For the comparison the values of the array are loaded into registers and are compared with the values 1 and 2 (X and O). The image shows a part of the end function for Player X.
+At the end of each main after a player selected a square an his symbol is stored in the array the program jumps to the end functions. These two function determine if one of the players wins. Both of them work identical. The squares of each row, column and diagonal are compared. For the comparison the values of the array are loaded into registers and are compared with the values 1 and 2 (X and O). The image shows a part of the end function for Player X.
 <p align="center">
   <img src="images/Screenshot_11.png">
 </p>
