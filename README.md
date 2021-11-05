@@ -22,9 +22,9 @@ The TicTacToe grid is displayed on the console after every turn. The '-' on the 
 
 The numbers 1 to 9 are related to the squares counting up from 1 to 9 from the top left square to the bottom right square.
 <p align="center">
-  
+  ![](images/grid.png)
 </p>
-![](images/grid.png)
+
 The game follows the regular rules of TicTacToe. That means that the Players place their symbol in a free square on the 3x3 grid. To win the game the Player needs three squares in a row, column or diagonal line. If no Player wins before all nine squares are occupied the game ends with a draw.
 
 There are a few rules when choosing the square. The square thats choosed can't be occupied by a Player and the entered number has to be in the range of 1 to 9. If one of the rules gets violated the player has to enter a new number in the console.
