@@ -31,7 +31,7 @@ There are a few rules when choosing the square. The square thats choosed can't b
 
 To play the game you have to run the tictactoeV4.asm in RARS. If you run the program Player X starts with choosing a square. The Players choose the square by entering a number between 1 and 9 into the console when they are asked to.
 
-![Screenshot_1](https://user-images.githubusercontent.com/93741318/140530609-aa59367c-3874-4fc5-b05f-41adbae5d14b.png)
+![](images/grid)
 
 Player X and O are choosing squares until a winner or draw is determined. After that the Players can choose wether they want wo play again or if they want to end the program. If a 1 is entered in the console the grid gets cleared and the game starts again. If a 0 is entered the program ends.
 
