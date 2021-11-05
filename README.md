@@ -41,7 +41,7 @@ The program announces the winner or a draw as soon as Player X or Player O wins 
   <img src="images/Screenshot_7.png">
 </p>
 
-Entering a 1 restarts the game. That means that the grid gets reset to '-' in all sqaures and the program jumps back to the start of the game. Entering a 0 ends the game and the program. If you want to play another game after this you have to run the program again. The images in paragraph "How to run" show what happens when a 1 or 0 is enterd in the console.
+Entering a 1 restarts the game. That means that the grid gets reset to '-' in all sqaures and the program jumps back to the start of the game. Entering a 0 ends the game and the program. If you want to play another game after this you have to run the program again. The following images show what happens when a 1 or 0 is enterd in the console.
 <p align="center">
   <img src="images/Screenshot_5.png">
 </p>
