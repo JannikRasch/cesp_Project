@@ -87,12 +87,14 @@ To play the game you have to run the tictactoeV4.asm in RARS. If you run the pro
 </p>
 
 ## Files
-Describe the content of each file of your application: e.g.
 
-src/tictactoeV4.asm
+src/tictactoeV4.asm - The tictactoe game
 
-test/unittest_tictactoe_X /..._O / ..._D # 9 unit tests for the three possible outcomes of a game
+test/unittest_tictactoe_X (.asm and .json) - Unittest to test if Player X wins with a set grid
 
+test/unittest_tictactoe_O (.asm and .json) - Unittest to test if Player O wins with a set grid
+
+test/unittest_tictactoe_D (.asm and .json) - Unittest to test if thers a draw with the set grid
 
 ## Test
 Screenshot that shows succedded (unit) tests 
