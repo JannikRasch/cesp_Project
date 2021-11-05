@@ -66,6 +66,15 @@ In the program are two mains. One for Player X and one for Player O. Those ask t
   <img src="images/Screenshot_10.png">
 </p>
 
+At the end of each main after a player selected a square an his symbol is stored in the array the program jumps to the end functions. These two function determine if one of the players wins. Both of them work identical. Each square of each row, column and diagonal are compared. For the comparison the values of the array are loaded into registers and are compared with the values 1 and 2 (X and O). The image shows a part of the end function for Player X.
+<p align="center">
+  <img src="images/Screenshot_11.png">
+</p>
+
+A draw is determined if Player X doesnt win after the 9th turn. The reason for that is that Player X makes the first and the last turn. Because of that he has to win if the game runs until the 9th turn or there is a draw.
+
+
+
 ### How to run
 
 To play the game you have to run the tictactoeV4.asm in RARS. If you run the program Player X starts with choosing a square. The Players choose the square by entering a number between 1 and 9 into the console when they are asked to. For the best experience maximise the console.
