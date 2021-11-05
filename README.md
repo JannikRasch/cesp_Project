@@ -49,6 +49,15 @@ Entering a 1 restarts the game. That means that the grid gets reset to '-' in al
   <img src="images/Screenshot_4.png">
 </p>
 
+### Program
+
+The values in the grid are stored in a array. The value 1 represents the X and the value 2 represents the 2.
+The grid gets build out of seperated parts. Such parts are the horizontal lines ' | ' or the vertical lines '---'. The values stored in the array are printed in between the lines as X or O. The stored values are accesed by loading the word at the corresponding part of the array (in steps by 4).
+
+<p align="center">
+  <img src="images/Screenshot_1.png">
+</p>
+
 ### How to run
 
 To play the game you have to run the tictactoeV4.asm in RARS. If you run the program Player X starts with choosing a square. The Players choose the square by entering a number between 1 and 9 into the console when they are asked to. For the best experience maximise the console.
