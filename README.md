@@ -96,3 +96,15 @@ test/unittest_tictactoe_X /..._O / ..._D # 9 unit tests for the three possible o
 
 ## Test
 Screenshot that shows succedded (unit) tests 
+
+<p align="center">
+  <img src="images/Screenshot_14.png">
+</p>
+
+<p align="center">
+  <img src="images/Screenshot_15.png">
+</p>
+
+<p align="center">
+  <img src="images/Screenshot_16.png">
+</p>
