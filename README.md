@@ -73,7 +73,12 @@ At the end of each main after a player selected a square an his symbol is stored
 
 A draw is determined if Player X doesnt win after the 9th turn. The reason for that is that Player X makes the first and the last turn. Because of that he has to win if the game runs until the 9th turn or there is a draw.
 
+The program jumps to mentioned print functions that print the grid and the result of the game. From there it jumps to the part where the players can deside whether they want to play again or end the game.
 
+The function cont (continue) asks the players to enter either a 1 or a 0 in the console to make a descision. If a number other than 1 or 0 is entered the players are asked to enter a valid number. If a 1 is entered the program jumps to the funcion clmain (clearmain) which clears the grid and jumps to the start of the game after that. If a 0 is entered the program ends with the exit ecall.
+<p align="center">
+  <img src="images/Screenshot_12.png">
+</p>
 
 ### How to run
 
