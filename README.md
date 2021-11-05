@@ -6,7 +6,9 @@ The Project is a game of TicTacToe which can be played by two players. The game 
 
 ## Authors
 
-Jannik Rasch
+Matrikelnummer: 1824595
+
+Email: inf20180@lehre.dhbw-stuttgart.de
 
 ## Demo Video
 
