@@ -59,7 +59,7 @@ The image shows the function that prints the grid on the console.
   <img src="images/Screenshot_13.png">
 </p>
 
-There are three very similar functions that print the grid when X wins, O wins or they draw. They also print the fitting winning message and let the program jump to the part where the players are asked wheter they want to restart or end the game.
+There are three very similar functions that print the grid when X wins, O wins or they draw. They also print the fitting winning message and let the program jump to the part where the players are asked whether they want to restart or end the game.
 
 
 ### How to run
