@@ -52,11 +52,15 @@ Entering a 1 restarts the game. That means that the grid gets reset to '-' in al
 ### Program
 
 The values in the grid are stored in a array. The value 1 represents the X and the value 2 represents the 2.
-The grid gets build out of seperated parts. Such parts are the horizontal lines ' | ' or the vertical lines '---'. The values stored in the array are printed in between the lines as X or O. The stored values are accesed by loading the word at the corresponding part of the array (in steps by 4).
 
+The grid gets build out of seperated parts. Such parts are the horizontal lines ' | ' or the vertical lines '---'. The values stored in the array are printed in between the lines as X or O. The stored values are accesed by loading the word at the corresponding part of the array (in steps by 4).
+The image shows the function that prints the grid on the console.
 <p align="center">
-  <img src="images/Screenshot_1.png">
+  <img src="images/Screenshot_13.png">
 </p>
+
+There are three very similar functions that print the grid when X wins, O wins or they draw. They also print the fitting winning message and let the program jump to the part where the players are asked wheter they want to restart or end the game.
+
 
 ### How to run
 
