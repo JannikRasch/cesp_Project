@@ -61,6 +61,10 @@ The image shows the function that prints the grid on the console.
 
 There are three very similar functions that print the grid when X wins, O wins or they draw. They also print the fitting winning message and let the program jump to the part where the players are asked whether they want to restart or end the game.
 
+In the program are two mains. One for Player X and one for Player O. Those ask the Player to input a number of a square and store a 1 or 2 (X or O) in the corresponding part of the array. If a number out of range from 1 to 9 is entered in the console or if theres allready a 1 or 2 (X or O) in the selected square (part of the array) the program jumps to another part of the main ehich is irectly above it. The player is asked to input a new valid number.
+<p align="center">
+  <img src="images/Screenshot_10.png">
+</p>
 
 ### How to run
 
