@@ -10,9 +10,7 @@ Jannik Rasch
 
 ## Demo Video
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/-h3eH4ubuno/0.jpg)](http://www.youtube.com/watch?v=-h3eH4ubuno "Video Title")
-
-Replace -h3eH4ubuno in the this .md by your YT video
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/-h3eH4ubuno/0.jpg)](http://www.youtube.com/watch?v=D8I_6LYsbGg "Video Title")
 
 ## Description
 
