@@ -16,9 +16,9 @@ Replace -h3eH4ubuno in the this .md by your YT video
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+An in-depth paragraph about the project and overview of use.
 
-The TicTacToe grid is displayed on the console after every turn. The '-' on the grid marks an emty square. The 'X' and the 'O' marks a square thats occupied by Player X or Player O.
+The TicTacToe grid is displayed on the console after every turn. The '-' on the grid marks an emty square. The 'X' and the 'O' mark a square thats occupied by Player X or Player O.
 
 The game follows the regular rules of TicTacToe. That means that the Players place their symbol in a free square on the 3x3 grid. To win the game the Player needs three squares in a row, column or diagonal line. If no Player wins before all nine squares are occupied the game ends with a draw.
 
@@ -28,7 +28,13 @@ The numbers 1 to 9 are related to the squares counting up from 1 to 9 from the t
   <img src="images/grid.png">
 </p>
 
-There are a few rules when choosing the square. The square thats choosed can't be occupied by a Player and the entered number has to be in the range of 1 to 9. If one of the rules gets violated the player has to enter a new number in the console.
+There are a few rules when choosing the square. The selected square can't be occupied by a Player and the entered number has to be in the range of 1 to 9. If one of the rules gets violated the player has to enter a new number in the console.
+<p align="center">
+  <img src="images/Screenshot_2.png">
+</p>
+<p align="center">
+  <img src="images/Screenshot_6.png">
+</p>
 
 ### How to run
 
