@@ -51,7 +51,7 @@ Entering a 1 restarts the game. That means that the grid gets reset to '-' in al
 
 ### How to run
 
-To play the game you have to run the tictactoeV4.asm in RARS. If you run the program Player X starts with choosing a square. The Players choose the square by entering a number between 1 and 9 into the console when they are asked to.
+To play the game you have to run the tictactoeV4.asm in RARS. If you run the program Player X starts with choosing a square. The Players choose the square by entering a number between 1 and 9 into the console when they are asked to. For the best experience maximise the console.
 
 <p align="center">
   <img src="images/Screenshot_1.png">
