@@ -1,0 +1,14 @@
+{
+  "cesp_version": 1,
+  "executable": [
+    "/usr/bin/java",
+    "-jar",
+    "/home/cesp/cesp_course/tools/rars/rars.jar"
+  ],
+  "arguments": [
+    "s10",
+    "unittest_tictactoe_D.asm"
+  ],
+  "description": "Draw",
+  "expected_result": "Unittest for Draw\ns10 should be 3 if theres a draw\n\n\nProgram terminated by calling exit\nMem[s10]\t0x00000003\n"
+}

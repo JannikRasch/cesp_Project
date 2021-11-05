@@ -1,0 +1,14 @@
+{
+  "cesp_version": 1,
+  "executable": [
+    "/usr/bin/java",
+    "-jar",
+    "/home/cesp/cesp_course/tools/rars/rars.jar"
+  ],
+  "arguments": [
+    "s10",
+    "unittest_tictactoe_O.asm"
+  ],
+  "description": "Player O Wins",
+  "expected_result": "Unittest of Player O winning\ns10 should be 2 if Player O won\n\n\nProgram terminated by calling exit\nMem[s10]\t0x00000002\n"
+}

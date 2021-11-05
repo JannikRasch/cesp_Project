@@ -1,0 +1,25 @@
+
+utest_tictactoe_D:
+
+#Test if no Player is recognized as winning (draw)
+	#grid represents a case where no Player wins (draw):
+	# X O X
+	# X O X
+	# O x O
+	la a0, grid
+	sw a2, 0(a0)
+	sw a3, 4(a0)
+	sw a2, 8(a0)
+	sw a2, 12(a0)
+	sw a3, 16(a0)
+	sw a2, 20(a0)
+	sw a3, 24(a0)
+	sw a2, 28(a0)
+	sw a3, 32(a0)
+	jal draw	#In end1 is determined if Player X wins. Because Player X starts its a draw if he doesnt win by 9th turn 
+	
+
+li a7, 10			#Exits program with code 0
+ecall
+
+.include "tictactoeV4.asm"

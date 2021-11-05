@@ -1,0 +1,22 @@
+
+utest_tictactoe_O:
+
+#Test if Player O is recognized as winning
+	#grid represents a case where Player O wins in middle row (square 4-6):
+	# X X -
+	# O O O
+	# - X -
+	la a0, grid
+	sw a2, 0(a0)
+	sw a2, 4(a0)
+	sw a3, 12(a0)
+	sw a3, 16(a0)
+	sw a3, 20(a0)
+	sw a2, 28(a0)
+	jal end2	#In end2 is determined if Player O wins
+
+
+li a7, 10			#Exits program with code 0
+ecall
+
+.include "tictactoeV4.asm"
