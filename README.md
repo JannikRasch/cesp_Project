@@ -36,9 +36,17 @@ There are a few rules when choosing the square. The selected square can't be occ
   <img src="images/Screenshot_6.png">
 </p>
 
-The program announces the winner or a draw as soon as Player X or Player O wins or all squares are filled without a winner. The Players are asked to choose whether they want to remach or if they want to exit the game and end the program. Those options are selected by entering a 1 or a 0 in the console. Entering a 1 restarts the game. That means that the grid gets reset to '-' in all sqaures and the program jumps back to the start of the game. Entering a 0 ends the game and the program. If you want to play another game after this you have to run the program again.
+The program announces the winner or a draw as soon as Player X or Player O wins or all squares are filled without a winner. The Players are asked to choose whether they want to remach or if they want to exit the game and end the program. Those options are selected by entering a 1 or a 0 in the console. 
 <p align="center">
   <img src="images/Screenshot_7.png">
+</p>
+
+Entering a 1 restarts the game. That means that the grid gets reset to '-' in all sqaures and the program jumps back to the start of the game. Entering a 0 ends the game and the program. If you want to play another game after this you have to run the program again. The images in paragraph "How to run" show what happens when a 1 or 0 is enterd in the console.
+<p align="center">
+  <img src="images/Screenshot_5.png">
+</p>
+<p align="center">
+  <img src="images/Screenshot_4.png">
 </p>
 
 ### How to run
@@ -47,16 +55,6 @@ To play the game you have to run the tictactoeV4.asm in RARS. If you run the pro
 
 <p align="center">
   <img src="images/Screenshot_1.png">
-</p>
-
-Player X and O are choosing squares until a winner or draw is determined. After that the Players can choose whether they want wo play again or if they want to end the program. 
-If a 1 is entered in the console the grid gets cleared and the game starts again. If a 0 is entered in the console the program ends.
-
-<p align="center">
-  <img src="images/Screenshot_5.png">
-</p>
-<p align="center">
-  <img src="images/Screenshot_4.png">
 </p>
 
 ## Files
