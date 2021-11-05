@@ -10,7 +10,7 @@ Jannik Rasch
 
 ## Demo Video
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/-h3eH4ubuno/0.jpg)](http://www.youtube.com/watch?v=D8I_6LYsbGg "Video Title")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/D8I_6LYsbGg/0.jpg)](http://www.youtube.com/watch?v=D8I_6LYsbGg "Video Title")
 
 ## Description
 
