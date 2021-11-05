@@ -41,10 +41,10 @@ To play the game you have to run the tictactoeV4.asm in RARS. If you run the pro
 Player X and O are choosing squares until a winner or draw is determined. After that the Players can choose wether they want wo play again or if they want to end the program. If a 1 is entered in the console the grid gets cleared and the game starts again. If a 0 is entered the program ends.
 
 <p align="center">
-  <img src="images/Screenshot_4.png">
+  <img src="images/Screenshot_5.png">
 </p>
 <p align="center">
-  <img src="images/Screenshot_5.png">
+  <img src="images/Screenshot_4.png">
 </p>
 
 ## Files
